@@ -1,1 +1,0 @@
-document.querySelector('.copy').addEventListener('click',async()=>{const status=document.querySelector('.copy-message');try{await navigator.clipboard.writeText(document.getElementById('sample').textContent);status.textContent='Code copied.'}catch{status.textContent='Select the code and copy it with your keyboard.'}});
